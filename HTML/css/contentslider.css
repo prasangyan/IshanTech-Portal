@@ -1,0 +1,61 @@
+#banner .sliderwrapper{
+	position: relative; /*leave as is*/
+	overflow: hidden; /*leave as is*/
+	width: 690px; /*width of featured content slider*/
+	height: 301px;
+	float:left;
+}
+
+
+
+#banner .sliderwrapper .contentdiv{
+	visibility: hidden; /*leave as is*/
+	position: absolute; /*leave as is*/
+	left: 0;  /*leave as is*/
+	top: 0;  /*leave as is*/
+	width: 690px; /*width of content DIVs within slider. Total width should equal slider's inner width (390+5+5=400) */
+	height: 301px;
+	float:left;
+}
+#banner .pagination{
+	width: 252px; /*Width of pagination DIV. Total width should equal slider's outer width (400+10+10=420)*/
+	float:left;
+}
+
+#banner .pagination a{
+	padding: 5px 0px 0px 0px;
+	text-decoration: none;
+	display:inline-block;
+	width:261px;
+	height:35px;
+	text-align:left;
+	background-position:top;
+	background-repeat:no-repeat;
+	font-size:16px;
+	margin-bottom:12px;
+	color:#FFF;
+}
+#banner .pagination a.last{
+	margin-right:0px;
+}
+
+#banner .pagination a img{
+	margin: 0px 0px 10px 0px;
+	float:left;
+}
+#banner .pagination a span.thumb{
+	width:50px;
+	padding-left:10px;
+	float:left;
+}
+#banner .pagination a span.tp{
+	padding-top:5px;
+}
+#banner .pagination a span.link{
+	padding-top:6px;
+	float:left;
+}
+#banner .pagination a:hover, #banner .pagination a.selected{
+	color:#fff;
+	background-image:url(../images/banner_rol.gif);
+}

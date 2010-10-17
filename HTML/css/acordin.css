@@ -1,0 +1,89 @@
+/*
+=======================================================================
+	Categories Rules
+=======================================================================
+*/
+.category {
+	width:210px;
+	float:left;
+	min-height:100px;
+	margin-bottom:10px;
+}
+
+.arrowlistmenu{
+	width: 210px;
+	float:left;
+}
+
+.arrowlistmenu .menuheader{
+	color: #666;
+	background-image:url(../images/cat_bg_left.gif);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	width:209px;
+	height:18px;
+	padding:7px 0px 0px 0px;
+	margin-left:1px;
+	border-bottom:#666 dotted 1px;
+	display:inline-block;
+}
+
+.arrowlistmenu .openheader{
+	background-image:url(../images/cat_bg_sel.gif);
+	background-repeat:no-repeat;
+}
+
+.arrowlistmenu ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+.arrowlistmenu ul li ul li a{
+	color: #666;
+	background-image:none !important;
+	background-color:#dddada;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	width:194px;
+	height:18px;
+	padding:7px 0px 0px 15px;
+	margin-left:1px;
+	display:inline-block;
+}
+.arrowlistmenu ul li a{
+	color: #666;
+}
+
+.arrowlistmenu ul li .opensubheader{
+	background-image:url(../images/cat_bg_lev2_link.gif);
+	background-repeat:no-repeat;
+}
+
+.arrowlistmenu ul li .closedsubheader{
+	background-image:url(../images/cat_bg_lev2_link_rol.gif);
+	background-repeat:no-repeat;
+}
+
+.arrowlistmenu ul li a{
+	color:#666;
+	background-image:url(../images/cat_bg_lev2.gif);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	width:194px;
+	height:18px;
+	padding:7px 0px 0px 15px;
+	margin-left:1px;
+	display:inline-block;
+}
+
+.arrowlistmenu ul li a:visited{
+	color: #666;
+}
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+
+}
+
+.arrowlistmenu ul li a.subexpandable:hover{ /*hover state CSS for sub menu header*/
+	
+}

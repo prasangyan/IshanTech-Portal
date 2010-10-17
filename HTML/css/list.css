@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+ul.display li a {
+	text-decoration: none;
+}
+ul.display li .content_block {
+	padding: 0 10px;
+}
+
+
+a.switch_thumb {
+	width: 48px;
+	height: 20px;
+	line-height: 26px;
+	padding: 0;
+	margin:5px 5px 10px 0;
+	display: block;
+	background:url(../images/list_grid.gif) no-repeat;
+	outline: none;
+	float:right;
+	border:#ababab solid 1px;
+}
+a:hover.switch_thumb {
+	
+}
+a.swap { background-position: left bottom; }
+
+
+
+
+ul.thumb_view li.last {
+	margin-right:0px !important;
+}
